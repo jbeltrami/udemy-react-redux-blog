@@ -1,9 +1,9 @@
 import React from 'react';
+import PostList from './PostList';
 
 const App = () => (
-  <div>
-    <h1>App</h1>
-    <p>This is the app component</p>
+  <div className="ui container">
+    <PostList />
   </div>
 );
 
